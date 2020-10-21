@@ -7,7 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class CheckOutPage extends BasePage{
+public class CheckOutLayoutBPage extends BasePage{
 
 	final String RADIO_BTN_FRETE = "//li[@id='CONVENTIONAL-menu-item']//label";
 	final String BTN_FORMA_PAGAMENTO = "//li[@id='payment-option-menu-CREDIT_CARD']//span[contains(text(),'selecione')]";
@@ -18,7 +18,7 @@ public class CheckOutPage extends BasePage{
 	final String CVV = "//article[@id='payment-option-CREDIT_CARD']//div//div//new-credit-card-payment//section//single-card-payment//ul//new-card-radio-input//li//form//label//div//input[contains(@placeholder,'CVV')]";
 	final String CHECKBOX_COMPRAS_FUTURAS = "//single-card-payment//label[5]//div[1]";
 
-	public CheckOutPage(WebDriver driver) {
+	public CheckOutLayoutBPage(WebDriver driver) {
 		super(driver);
 	}
 

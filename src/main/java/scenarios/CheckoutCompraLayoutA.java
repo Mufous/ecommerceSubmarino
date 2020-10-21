@@ -11,20 +11,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import pages.CarrinhoPage;
-import pages.CheckOutPage;
+import pages.CheckOutLayoutAPage;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ProdutoPage;
 
-public class CheckoutCompra {
+public class CheckoutCompraLayoutA {
 
 	WebDriver driver = new ChromeDriver();
 	HomePage homepage = new HomePage(driver);
 	ProdutoPage produto = new ProdutoPage(driver);
 	CarrinhoPage carrinho = new CarrinhoPage(driver);
 	LoginPage login = new LoginPage(driver);
-	CheckOutPage checkout = new CheckOutPage(driver);
-	public static final Logger logger = Logger.getLogger(CheckoutCompra.class);
+	CheckOutLayoutAPage checkoutA = new CheckOutLayoutAPage(driver);
+	public static final Logger logger = Logger.getLogger(CheckoutCompraLayoutA.class);
 
 	@Before
 	public void before() {
@@ -37,21 +37,20 @@ public class CheckoutCompra {
 		try {
 			homepage.acessaUrl("https://www.submarino.com.br/");
 			homepage.aceitaCookies();
-			homepage.efetuaBusca("ra��o magnus premium filhotes");
+			homepage.efetuaBusca("racao magnus premium filhotes");
 			homepage.selecionaProduto();
 			produto.incluiProduto();
 			carrinho.confirmaCarrinho();
-			login.preencheEmail(""); // preencher com e-mail de conta Submarino v�lida, entre // aspas duplas ("")
-			login.preencheSenha(""); // preencher com senha de conta Submarino v�lida, entre aspas duplas ("")
+			login.preencheEmail("eduardomurata@hotmail.com"); // preencher com e-mail de conta Submarino valida, entre // aspas duplas ("")
+			login.preencheSenha("106318"); // preencher com senha de conta Submarino valida, entre aspas duplas ("")
 			login.efetuaLogin();
-			checkout.selecionaFrete();
-			checkout.selecionaFormaPagamento();
-			checkout.preencheCartaoCredito("347109420882533");0,
-			checkout.preencheNomeCartaoCredito("NOME CLIENTE");
-			checkout.preencheMesValidade("7");
-			checkout.preencheAnoValidade("2021");
-			checkout.preencheCVV("9880");
-			checkout.salvarDadosComprasFuturas();
+			checkoutA.selecionaFrete();
+			checkoutA.selecionaFormaPagamento();
+			checkoutA.preencheCartaoCredito("347109420882533");
+			checkoutA.preencheNomeCartaoCredito("NOME CLIENTE");
+			checkoutA.preencheValidade("0721");
+			checkoutA.preencheCVV("9880");
+			checkoutA.salvarCartao();
 
 		} catch (Exception e) {
 			logger.info(e.getStackTrace() + " " + e.getMessage());
@@ -80,7 +79,7 @@ public class CheckoutCompra {
 //					   "disable-popup-blocking",
 //					   "disable-infobars"
 //					  );
-		driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
 }
