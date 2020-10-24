@@ -72,7 +72,7 @@ public class CheckoutCompraLayoutB {
 	 * Configura o Chrome Driver com espera Implicita de at� 90 Segundos
 	 */
 	private void configuraChromeDriver() {
-		// Configura espera de at� 90 Segundos qualquer elemento.
+		// Configura espera de at� 120 Segundos qualquer elemento.
 
 //			driver.manage().window().maximize();		
 //			ChromeOptions chromeOptions = new ChromeOptions();
