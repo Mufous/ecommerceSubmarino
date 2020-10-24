@@ -15,6 +15,7 @@ import pages.CheckOutLayoutBPage;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ProdutoPage;
+import utils.LeitorJsonWithGson;
 
 public class CheckoutCompraLayoutB {
 
@@ -25,32 +26,36 @@ public class CheckoutCompraLayoutB {
 	LoginPage login = new LoginPage(driver);
 	CheckOutLayoutBPage checkoutB = new CheckOutLayoutBPage(driver);
 	public static final Logger logger = Logger.getLogger(CheckoutCompraLayoutB.class);
+	
+	LeitorJsonWithGson leitorMassa;
 
 	@Before
-	public void before() {
+	public void before() throws IOException {
 		configuraChromeDriver();
+		leitorMassa = new LeitorJsonWithGson();
+		leitorMassa.leitorJson();
 	}
 
 	@Test
 	public void checkoutCompra() throws InterruptedException, IOException {
 
 		try {
-			homepage.acessaUrl("https://www.submarino.com.br/");
+			homepage.acessaUrl(leitorMassa.getMassa("url"));
 			homepage.aceitaCookies();
-			homepage.efetuaBusca("racao magnus premium filhotes");
+			homepage.efetuaBusca(leitorMassa.getMassa("produto"));
 			homepage.selecionaProduto();
 			produto.incluiProduto();
 			carrinho.confirmaCarrinho();
-			login.preencheEmail("eduardomurata@hotmail.com"); // preencher com e-mail de conta Submarino valida, entre // aspas duplas ("")
-			login.preencheSenha("106318"); // preencher com senha de conta Submarino valida, entre aspas duplas ("")
+			login.preencheEmail(leitorMassa.getMassa("email")); // preencher com e-mail de conta Submarino valida, entre // aspas duplas ("")
+			login.preencheSenha(leitorMassa.getMassa("senha")); // preencher com senha de conta Submarino valida, entre aspas duplas ("")
 			login.efetuaLogin();
 			checkoutB.selecionaFrete();
 			checkoutB.selecionaFormaPagamento();
-			checkoutB.preencheCartaoCredito("347109420882533");
-			checkoutB.preencheNomeCartaoCredito("NOME CLIENTE");
+			checkoutB.preencheCartaoCredito(leitorMassa.getMassa("cartao_credito"));
+			checkoutB.preencheNomeCartaoCredito(leitorMassa.getMassa("nome_cartao_credito"));
 			checkoutB.preencheMesValidade("7");
 			checkoutB.preencheAnoValidade("2021");
-			checkoutB.preencheCVV("9880");
+			checkoutB.preencheCVV(leitorMassa.getMassa("cvv"));
 			checkoutB.salvarDadosComprasFuturas();
 
 		} catch (Exception e) {

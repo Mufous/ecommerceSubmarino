@@ -12,6 +12,7 @@ public class CarrinhoPage extends BasePage{
 	final String BTN_MAIS = "//span[@class='quantityIcon icon-plus']";
 	final String BTN_REMOVER = "//span[@class='basket-productRemoveAct link-primary']";
 	final String BTN_CONTINUAR = "//div[@class='basket-wrapper']//button[@id='buy-button']";
+	final String CALCULA_FRETE = "//span[contains(text(),'Calcule frete e prazo')]";
 
 	public CarrinhoPage(WebDriver driver) {
 		super(driver);
@@ -43,5 +44,10 @@ public class CarrinhoPage extends BasePage{
 
 		driver.findElement(By.xpath(BTN_CONTINUAR)).click();
 		screenShot("Carrinho confirmado com sucesso.");
+	}
+	
+	public boolean calcularFrete() throws InterruptedException, IOException {
+
+		return driver.findElement(By.xpath(CALCULA_FRETE)).isDisplayed(); 
 	}
 }

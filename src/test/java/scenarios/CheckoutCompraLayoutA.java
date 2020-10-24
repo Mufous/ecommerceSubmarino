@@ -47,7 +47,7 @@ public class CheckoutCompraLayoutA {
 			checkoutA.selecionaFrete();
 			checkoutA.selecionaFormaPagamento();
 			checkoutA.preencheCartaoCredito("347109420882533");
-			checkoutA.preencheNomeCartaoCredito("NOME CLIENTE");
+			checkoutA.preencheNomeCartaoCredito("NOME DO CLIENTE");
 			checkoutA.preencheValidade("0721");
 			checkoutA.preencheCVV("9880");
 			checkoutA.salvarCartao();

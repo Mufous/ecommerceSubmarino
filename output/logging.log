@@ -198,3 +198,60 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: RemoteWebDriver
+2020-10-24 16:05:50 INFO  - URL acessada com sucesso.
+2020-10-24 16:05:52 INFO  - [Ljava.lang.StackTraceElement;@12591ac8 element click intercepted: Element is not clickable at point (1271, 943)
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '172.40.50.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c23765be39fbaa91e2878761e6c5c770
+2020-10-24 16:06:20 INFO  - URL acessada com sucesso.
+2020-10-24 16:06:21 INFO  - Cookies aceitos com sucesso.
+2020-10-24 16:06:30 INFO  - Busca efetuada com sucesso.
+2020-10-24 16:06:36 INFO  - Produto selecionado com sucesso.
+2020-10-24 16:06:52 INFO  - Produto adicionado com sucesso.
+2020-10-24 16:06:55 INFO  - [Ljava.lang.StackTraceElement;@68878f6d Cannot locate an element using xpath=//div[@class='basket-wrapper']//button[@id='buy-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '172.40.50.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-24 16:07:26 INFO  - URL acessada com sucesso.
+2020-10-24 16:07:26 INFO  - Cookies aceitos com sucesso.
+2020-10-24 16:07:30 INFO  - Busca efetuada com sucesso.
+2020-10-24 16:07:36 INFO  - Produto selecionado com sucesso.
+2020-10-24 16:07:48 INFO  - Produto adicionado com sucesso.
+2020-10-24 16:07:55 INFO  - [Ljava.lang.StackTraceElement;@68878f6d Cannot locate an element using xpath=//div[@class='basket-wrapper']//button[@id='buy-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '172.40.50.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-24 16:08:13 INFO  - URL acessada com sucesso.
+2020-10-24 16:08:13 INFO  - Cookies aceitos com sucesso.
+2020-10-24 16:08:15 INFO  - Busca efetuada com sucesso.
+2020-10-24 16:08:18 INFO  - Produto selecionado com sucesso.
+2020-10-24 16:08:24 INFO  - Produto adicionado com sucesso.
+2020-10-24 16:08:36 INFO  - [Ljava.lang.StackTraceElement;@7283d3eb Keys to send should be a not null CharSequence
+2020-10-24 16:09:55 INFO  - URL acessada com sucesso.
+2020-10-24 16:09:56 INFO  - [Ljava.lang.StackTraceElement;@12591ac8 element click intercepted: Element is not clickable at point (1269, 945)
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '172.40.50.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f912e82a3eb46d261dd5b06d9b42c7e1
+2020-10-24 16:10:13 INFO  - URL acessada com sucesso.
+2020-10-24 16:10:13 INFO  - Cookies aceitos com sucesso.
+2020-10-24 16:10:15 INFO  - Busca efetuada com sucesso.
+2020-10-24 16:10:19 INFO  - Produto selecionado com sucesso.
+2020-10-24 16:10:21 INFO  - Produto adicionado com sucesso.
+2020-10-24 16:10:27 INFO  - Email preenchido com sucesso.
+2020-10-24 16:10:28 INFO  - Senha preenchida com sucesso.
+2020-10-24 16:10:28 INFO  - Login efetuado com sucesso.
+2020-10-24 16:11:21 INFO  - Frete selecionado com sucesso.
+2020-10-24 16:11:22 INFO  - Forma de Pagamento selecionada com sucesso.
+2020-10-24 16:11:23 INFO  - Número do Cartao preenchido com sucesso.
+2020-10-24 16:11:24 INFO  - Nome do Titular do Cartao preenchido com sucesso.
+2020-10-24 16:11:25 INFO  - Mes de Validade do Cartao preenchido com sucesso.
+2020-10-24 16:11:25 INFO  - Ano de Validade do Cartao preenchido com sucesso.
+2020-10-24 16:11:25 INFO  - [Ljava.lang.StackTraceElement;@69f1a286 Keys to send should be a not null CharSequence
