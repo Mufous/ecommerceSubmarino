@@ -6,5 +6,7 @@
 "cartao_credito": "347109420882533",
 "nome_cartao_credito": "NOME DO CLIENTE",
 "validade": "0721",
+"mes_validade": "07",
+"ano_validade": "21",
 "cvv": "9880"
 }

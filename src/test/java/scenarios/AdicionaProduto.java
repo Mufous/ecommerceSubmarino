@@ -14,6 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import pages.CarrinhoPage;
 import pages.HomePage;
 import pages.ProdutoPage;
+import utils.LeitorJsonWithGson;
 
 public class AdicionaProduto {
 
@@ -23,14 +24,15 @@ public class AdicionaProduto {
 	CarrinhoPage carrinho = new CarrinhoPage(driver);
 
 	public static final Logger logger = Logger.getLogger(AdicionaProduto.class);
+	LeitorJsonWithGson leitorMassa;
 
 	@Test
 	public void adicionaProduto() throws InterruptedException, IOException {
 
 		try {
-			homepage.acessaUrl("https://www.submarino.com.br/");
+			homepage.acessaUrl(leitorMassa.getMassa("url"));
 			homepage.aceitaCookies();
-			homepage.efetuaBusca("ração magnus premium filhotes");
+			homepage.efetuaBusca(leitorMassa.getMassa("produto"));
 			homepage.selecionaProduto();
 			produto.incluiProduto();
 			Assert.assertTrue("Calcule frete e prazo", carrinho.calcularFrete());

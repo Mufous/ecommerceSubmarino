@@ -1,9 +1,12 @@
 package scenarios;
 
+import static org.junit.Assert.fail;
+
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -31,8 +34,10 @@ public class RemoveProduto {
 			homepage.selecionaProduto();
 			produto.incluiProduto();
 			carrinho.limpaCarrinho();
+			Assert.assertEquals(true, carrinho.limpaCarrinho());
 		} catch (Exception e) {
 			logger.info(e.getStackTrace() + " " + e.getMessage());
+			fail();
 		}
 	}
 

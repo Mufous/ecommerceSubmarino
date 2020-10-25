@@ -55,6 +55,10 @@ public class CheckOutLayoutAPage extends BasePage{
 		screenShot("preenche a Data de Validade do Cartao");
 		logger.info("Validade do Cartao preenchida com sucesso.");
 	}
+	
+	public boolean validadeEstaVisivel() throws IOException {
+		return driver.findElement(By.xpath(VALIDADE_CARTAO)).isDisplayed();
+	}
 
 	public void preencheCVV(String cvv) throws IOException {
 		driver.findElement(By.xpath(CVV)).sendKeys(cvv);
@@ -63,9 +67,13 @@ public class CheckOutLayoutAPage extends BasePage{
 
 	}
 
-	public void salvarCartao() throws InterruptedException, IOException {
+	public boolean salvarCartao() throws InterruptedException, IOException {
 		driver.findElement(By.xpath(CHECKBOX_SALVAR_CARTAO)).click();
 		screenShot("seleciona checkbox 'salvar o cartao'");
 		logger.info("Checkbox de gravacao de Dados de Cartao selecionado com sucesso.");
+		logger.info("Execução concluída com sucesso! :)");
+		return driver.findElement(By.xpath(CHECKBOX_SALVAR_CARTAO)).isSelected();
 	}
+	
+	
 }

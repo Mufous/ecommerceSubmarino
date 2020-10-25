@@ -71,9 +71,11 @@ public class CheckOutLayoutBPage extends BasePage{
 
 	}
 
-	public void salvarDadosComprasFuturas() throws InterruptedException, IOException {
+	public boolean salvarDadosComprasFuturas() throws InterruptedException, IOException {
 		driver.findElement(By.xpath(CHECKBOX_COMPRAS_FUTURAS)).click();
 		screenShot("seleciona Dados para Compras Futuras");
 		logger.info("Checkbox de gravacao de Dados para Compras Futuras selecionado com sucesso.");
+		logger.info("Execução concluída com sucesso! :)");
+		return driver.findElement(By.xpath(CHECKBOX_COMPRAS_FUTURAS)).isSelected();
 	}
 }

@@ -255,3 +255,211 @@ Session ID: f912e82a3eb46d261dd5b06d9b42c7e1
 2020-10-24 16:11:25 INFO  - Mes de Validade do Cartao preenchido com sucesso.
 2020-10-24 16:11:25 INFO  - Ano de Validade do Cartao preenchido com sucesso.
 2020-10-24 16:11:25 INFO  - [Ljava.lang.StackTraceElement;@69f1a286 Keys to send should be a not null CharSequence
+2020-10-25 14:46:30 INFO  - URL acessada com sucesso.
+2020-10-25 14:46:30 INFO  - Cookies aceitos com sucesso.
+2020-10-25 14:47:04 INFO  - Busca efetuada com sucesso.
+2020-10-25 14:47:06 INFO  - Produto selecionado com sucesso.
+2020-10-25 14:47:18 INFO  - Produto adicionado com sucesso.
+2020-10-25 14:47:22 INFO  - [Ljava.lang.StackTraceElement;@68878f6d Cannot locate an element using xpath=//div[@class='basket-wrapper']//button[@id='buy-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 14:47:23 INFO  - Tempo total de execução:61 - segundos
+2020-10-25 14:48:33 INFO  - [Ljava.lang.StackTraceElement;@4b520ea8 no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 174f0698ab6f0ba1d65af64ebc1542ed
+2020-10-25 14:48:34 INFO  - Tempo total de execução:60 - segundos
+2020-10-25 14:49:54 INFO  - URL acessada com sucesso.
+2020-10-25 14:49:55 INFO  - [Ljava.lang.StackTraceElement;@12591ac8 element click intercepted: Element is not clickable at point (1269, 945)
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52715}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73d3126c4438d59f87eeec43ec3c5816
+2020-10-25 14:49:56 INFO  - Tempo total de execução:52 - segundos
+2020-10-25 14:50:22 INFO  - URL acessada com sucesso.
+2020-10-25 14:50:22 INFO  - Cookies aceitos com sucesso.
+2020-10-25 14:50:24 INFO  - Busca efetuada com sucesso.
+2020-10-25 14:50:27 INFO  - Produto selecionado com sucesso.
+2020-10-25 14:50:40 INFO  - Produto adicionado com sucesso.
+2020-10-25 14:51:00 INFO  - Email preenchido com sucesso.
+2020-10-25 14:51:00 INFO  - Senha preenchida com sucesso.
+2020-10-25 14:51:01 INFO  - Login efetuado com sucesso.
+2020-10-25 14:51:07 INFO  - [Ljava.lang.StackTraceElement;@205d38da Cannot locate an element using xpath=//body/div[@id='root']/div[1]/main[1]/section[3]/div[1]/div[1]/form[1]/div[1]/div[4]/div[1]/label[1]/div[1]/input[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 14:51:07 INFO  - Tempo total de execução:48 - segundos
+2020-10-25 14:54:21 INFO  - URL acessada com sucesso.
+2020-10-25 14:54:22 INFO  - Cookies aceitos com sucesso.
+2020-10-25 14:54:25 INFO  - Busca efetuada com sucesso.
+2020-10-25 14:54:27 INFO  - Produto selecionado com sucesso.
+2020-10-25 14:54:29 INFO  - Produto adicionado com sucesso.
+2020-10-25 14:54:44 INFO  - [Ljava.lang.StackTraceElement;@7283d3eb Cannot locate an element using xpath=//input[@id='email-input']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 14:54:45 INFO  - Tempo total de execução:87 - segundos
+2020-10-25 14:54:58 INFO  - URL acessada com sucesso.
+2020-10-25 14:54:59 INFO  - Cookies aceitos com sucesso.
+2020-10-25 14:55:17 INFO  - Busca efetuada com sucesso.
+2020-10-25 14:55:20 INFO  - Produto selecionado com sucesso.
+2020-10-25 14:55:24 INFO  - Produto adicionado com sucesso.
+2020-10-25 14:55:34 INFO  - Email preenchido com sucesso.
+2020-10-25 14:55:35 INFO  - Senha preenchida com sucesso.
+2020-10-25 14:55:35 INFO  - Login efetuado com sucesso.
+2020-10-25 14:57:43 INFO  - Frete selecionado com sucesso.
+2020-10-25 14:57:43 INFO  - Forma de Pagamento selecionada com sucesso.
+2020-10-25 14:57:44 INFO  - Numero do Cartao de Credito preenchido com sucesso.
+2020-10-25 14:57:45 INFO  - Nome do Titular do Cartao preenchido com sucesso.
+2020-10-25 14:57:45 INFO  - Validade do Cartao preenchida com sucesso.
+2020-10-25 14:57:45 INFO  - CVV do Cartao preenchido com sucesso.
+2020-10-25 14:57:46 INFO  - Checkbox de gravacao de Dados de Cartao selecionado com sucesso.
+2020-10-25 14:57:46 INFO  - Execução concluída com sucesso! :)
+2020-10-25 14:57:47 INFO  - Tempo total de execução:170 - segundos
+2020-10-25 15:31:43 INFO  - URL acessada com sucesso.
+2020-10-25 15:31:44 INFO  - Cookies aceitos com sucesso.
+2020-10-25 15:31:44 INFO  - Busca efetuada com sucesso.
+2020-10-25 15:31:47 INFO  - [Ljava.lang.StackTraceElement;@415b0b49 Cannot locate an element using xpath=//body/div[@id='root']/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/section[1]/div[1]/div[1]/div[1]/picture[1]/img[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 15:31:48 INFO  - Tempo total de execução:6 segundos
+2020-10-25 15:33:10 INFO  - URL acessada com sucesso.
+2020-10-25 15:33:11 INFO  - [Ljava.lang.StackTraceElement;@12591ac8 element click intercepted: Element is not clickable at point (1269, 945)
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0917d5f4400298db58a056184386b082
+2020-10-25 15:33:11 INFO  - Tempo total de execução:31 segundos
+2020-10-25 15:33:48 INFO  - URL acessada com sucesso.
+2020-10-25 15:33:49 INFO  - [Ljava.lang.StackTraceElement;@12591ac8 element click intercepted: Element is not clickable at point (1271, 943)
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8ba19682a644968872cfdc9ef4d82c23
+2020-10-25 15:33:50 INFO  - Tempo total de execução:24 segundos
+2020-10-25 15:34:27 INFO  - [Ljava.lang.StackTraceElement;@60f00693 unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0c9d4d4f9e9a4bd3f41354edba048596
+2020-10-25 15:34:28 INFO  - Tempo total de execução:16 segundos
+2020-10-25 15:35:33 INFO  - URL acessada com sucesso.
+2020-10-25 15:35:34 INFO  - Cookies aceitos com sucesso.
+2020-10-25 15:35:44 INFO  - Busca efetuada com sucesso.
+2020-10-25 15:35:46 INFO  - Produto selecionado com sucesso.
+2020-10-25 15:35:53 INFO  - Produto adicionado com sucesso.
+2020-10-25 15:35:57 INFO  - Email preenchido com sucesso.
+2020-10-25 15:35:57 INFO  - Senha preenchida com sucesso.
+2020-10-25 15:36:01 INFO  - Login efetuado com sucesso.
+2020-10-25 15:37:59 INFO  - [Ljava.lang.StackTraceElement;@205d38da Cannot locate an element using xpath=//body/div[@id='root']/div[1]/main[1]/section[3]/div[1]/div[1]/form[1]/div[1]/div[4]/div[1]/label[1]/div[1]/input[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 15:38:00 INFO  - Tempo total de execução:198 segundos
+2020-10-25 15:39:43 INFO  - URL acessada com sucesso.
+2020-10-25 15:39:43 INFO  - Cookies aceitos com sucesso.
+2020-10-25 15:39:47 INFO  - Busca efetuada com sucesso.
+2020-10-25 15:39:49 INFO  - Produto selecionado com sucesso.
+2020-10-25 15:39:59 INFO  - Produto adicionado com sucesso.
+2020-10-25 15:40:24 INFO  - Email preenchido com sucesso.
+2020-10-25 15:40:24 INFO  - Senha preenchida com sucesso.
+2020-10-25 15:40:28 INFO  - Login efetuado com sucesso.
+2020-10-25 15:40:35 INFO  - [Ljava.lang.StackTraceElement;@205d38da Cannot locate an element using xpath=//body/div[@id='root']/div[1]/main[1]/section[3]/div[1]/div[1]/form[1]/div[1]/div[4]/div[1]/label[1]/div[1]/input[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 15:40:36 INFO  - Tempo total de execução:56 segundos
+2020-10-25 15:41:34 INFO  - URL acessada com sucesso.
+2020-10-25 15:41:35 INFO  - Cookies aceitos com sucesso.
+2020-10-25 15:41:53 INFO  - Busca efetuada com sucesso.
+2020-10-25 15:41:55 INFO  - Produto selecionado com sucesso.
+2020-10-25 15:42:03 INFO  - Produto adicionado com sucesso.
+2020-10-25 15:42:24 INFO  - [Ljava.lang.StackTraceElement;@7283d3eb Cannot locate an element using xpath=//input[@id='email-input']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 15:42:25 INFO  - Tempo total de execução:52 segundos
+2020-10-25 15:42:34 INFO  - URL acessada com sucesso.
+2020-10-25 15:42:35 INFO  - Cookies aceitos com sucesso.
+2020-10-25 15:42:37 INFO  - Busca efetuada com sucesso.
+2020-10-25 15:43:15 INFO  - Produto selecionado com sucesso.
+2020-10-25 15:43:27 INFO  - Produto adicionado com sucesso.
+2020-10-25 15:43:30 INFO  - [Ljava.lang.StackTraceElement;@68878f6d Cannot locate an element using xpath=//div[@class='basket-wrapper']//button[@id='buy-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 15:43:31 INFO  - Tempo total de execução:60 segundos
+2020-10-25 15:43:46 INFO  - URL acessada com sucesso.
+2020-10-25 15:43:46 INFO  - Cookies aceitos com sucesso.
+2020-10-25 15:43:51 INFO  - Busca efetuada com sucesso.
+2020-10-25 15:43:54 INFO  - Produto selecionado com sucesso.
+2020-10-25 15:44:04 INFO  - Produto adicionado com sucesso.
+2020-10-25 15:44:30 INFO  - [Ljava.lang.StackTraceElement;@7283d3eb Cannot locate an element using xpath=//input[@id='email-input']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 15:44:31 INFO  - Tempo total de execução:47 segundos
+2020-10-25 15:44:39 INFO  - URL acessada com sucesso.
+2020-10-25 15:44:39 INFO  - Cookies aceitos com sucesso.
+2020-10-25 15:44:52 INFO  - Busca efetuada com sucesso.
+2020-10-25 15:44:55 INFO  - Produto selecionado com sucesso.
+2020-10-25 15:45:07 INFO  - Produto adicionado com sucesso.
+2020-10-25 15:45:19 INFO  - [Ljava.lang.StackTraceElement;@7283d3eb Cannot locate an element using xpath=//input[@id='email-input']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 15:45:20 INFO  - Tempo total de execução:44 segundos
+2020-10-25 16:03:54 INFO  - URL acessada com sucesso.
+2020-10-25 16:03:55 INFO  - Cookies aceitos com sucesso.
+2020-10-25 16:04:08 INFO  - Busca efetuada com sucesso.
+2020-10-25 16:04:09 INFO  - [Ljava.lang.StackTraceElement;@723ca036 element not interactable
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 184f2bf874c1c65f8b91245fb4bcf2f0
+2020-10-25 16:04:31 INFO  - [Ljava.lang.StackTraceElement;@5b1669c0 no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ad62ee7cb05d3707370ac19fb5a6af25
+2020-10-25 16:09:28 INFO  - URL acessada com sucesso.
+2020-10-25 16:09:29 INFO  - Cookies aceitos com sucesso.
+2020-10-25 16:10:09 INFO  - Busca efetuada com sucesso.
+2020-10-25 16:10:58 INFO  - Produto selecionado com sucesso.
+2020-10-25 16:11:10 INFO  - Produto adicionado com sucesso.
+2020-10-25 16:11:13 INFO  - [Ljava.lang.StackTraceElement;@68878f6d Cannot locate an element using xpath=//span[@class='quantityIcon icon-plus']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OF1FAUQ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+2020-10-25 16:11:14 INFO  - Tempo total de execução: 159 segundos
