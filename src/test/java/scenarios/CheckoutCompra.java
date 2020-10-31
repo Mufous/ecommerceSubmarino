@@ -3,6 +3,7 @@ package scenarios;
 import static org.junit.Assert.fail;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -13,6 +14,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import dao.DaoCenariosTest;
 import pages.CarrinhoPage;
 import pages.CheckOutLayoutAPage;
 import pages.CheckOutLayoutBPage;
@@ -35,13 +37,15 @@ public class CheckoutCompra {
 	public static final Logger logger = Logger.getLogger(CheckoutCompra.class);
 
 	LeitorJsonWithGson leitorMassa;
+	DaoCenariosTest daoCenarios;
 
 	@Before
-	public void before() throws IOException {
+	public void before() throws IOException, SQLException {
 		configuraChromeDriver();
 		inicioTeste = System.currentTimeMillis();
 		leitorMassa = new LeitorJsonWithGson();
 		leitorMassa.leitorJson();
+		daoCenarios.convertToJson(daoCenarios.loadData());
 	}
 
 	@Test
